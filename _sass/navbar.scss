@@ -1,0 +1,89 @@
+#mainNav {
+  background-color: transparent;
+  padding: 1rem 2.5rem 0rem 2.5rem;
+  .nav-left {
+    display: flex;
+    flex-direction: row;
+
+    .nav-logo {
+      display: flex;
+      flex-direction: row;
+      text-decoration: none;
+
+      .logo {
+        width: 60px;
+        height: 60px;
+        margin-right: 0.8rem;
+        filter: invert(1);
+        @media only screen and (min-width: 768px) {
+          width: 46px;
+          height: 46px;
+        }
+      }
+    }
+    &:hover {
+      opacity: 0.5;
+    }
+
+    .nav-heading {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .name {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 0.18rem;
+        color: $white;
+        @media only screen and (min-width: 768px) {
+          font-size: 1.2rem;
+        }
+      }
+
+      .description {
+        text-transform: uppercase;
+        font-size: 0.7rem;
+        font-weight: 400;
+        letter-spacing: 1.3px;
+        margin: 0;
+        display: hidden;
+        color: $white;
+        @media only screen and (min-width: 768px) {
+          display: block;
+        }
+      }
+    }
+  }
+
+  .navbar-toggler {
+    color: $white;
+    font-size: 2rem;
+    border: none;
+    .fa-bars {
+      margin-left: 4px;
+    }
+    @media only screen and (min-width: 768px) {
+      font-size: 1rem;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .nav-item {
+    padding: 0 0.8rem;
+    .nav-link {
+      color: $white !important;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      font-size: 1rem;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+    #current {
+      opacity: 0.5;
+    }
+  }
+}

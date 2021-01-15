@@ -1,0 +1,29 @@
+{% if page.background %}
+<header
+  class="masthead"
+  style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')"
+>
+  {% else %}
+  <header class="masthead">
+    {% endif %}
+    <div class="overlay"></div>
+    <div class="container">
+      <div id="header-content" class="col-lg-8 col-md-10">
+        <div class="page-heading">
+          <span class="name">{{ page.title }}</span>
+          <h1>{{ page.description }}</h1>
+          {% if page.excerpt %}
+          <span class="subheading">{{ page.excerpt }}</span>
+          {% endif %}
+          <div class="further-links">
+            <h4>
+              <a href="#portfolio" class="further-item">Beiträge ansehen</a>
+              <span class="further-span">oder</span>
+              <a href="#portfolio" class="further-item">Kontakt aufnehmen</a>
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</header>
