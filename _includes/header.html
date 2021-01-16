@@ -14,14 +14,15 @@
           <h1>{{ page.description }}</h1>
           {% if page.excerpt %}
           <span class="subheading">{{ page.excerpt }}</span>
-          {% endif %}
+          {% endif %} {% if page.layout == 'home' %}
           <div class="further-links">
             <h4>
-              <a href="#portfolio" class="further-item">Beiträge ansehen</a>
+              <a href="/blog" class="further-item">Beiträge ansehen</a>
               <span class="further-span">oder</span>
-              <a href="#portfolio" class="further-item">Kontakt aufnehmen</a>
+              <a href="/contact" class="further-item">Kontakt aufnehmen</a>
             </h4>
           </div>
+          {% endif %}
         </div>
       </div>
     </div>
