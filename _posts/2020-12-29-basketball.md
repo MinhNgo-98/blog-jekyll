@@ -1,6 +1,8 @@
 ---
 layout: post
+background: "/assets/images/posts/basketball.jpg"
 ---
+
 Variationen des Basketballs sind Aktivitäten, die auf dem Basketballspiel basieren und gemeinsame Basketball-Fähigkeiten und -Ausrüstung (hauptsächlich den Ball und den Korb) verwenden. Bei einigen Variationen handelt es sich nur um oberflächliche Regeländerungen, bei anderen um eigenständige Spiele mit unterschiedlich starkem Basketball-Einfluss. Andere Variationen beinhalten Kinderspiele, Wettbewerbe oder Aktivitäten, die den Spielern helfen sollen, ihre Fähigkeiten zu verbessern.
 
 Kentucky sagt, dass Ben Jordan, ein rechtshändiger Pitcher, der in der letzten Saison aufgrund von Spielermangel im Herren-Basketballteam gespielt hat, gestorben ist. Die Schule gab Jordans Tod am Montag in einer Mitteilung bekannt, und ein Kentucky-Baseball-Sprecher sagte, Trainer Nick Mingione habe mit der Familie des Spielers gesprochen. Mingione sagte in einer Mitteilung am Dienstag, dass das Programm am Boden zerstört sei, als es von Jordans Tod erfuhr.

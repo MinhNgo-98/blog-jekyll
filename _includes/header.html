@@ -8,21 +8,25 @@
     {% endif %}
     <div class="overlay"></div>
     <div class="container">
-      <div id="header-content" class="col-lg-8 col-md-10">
-        <div class="page-heading">
-          <span class="name">{{ page.title }}</span>
-          <h1>{{ page.description }}</h1>
-          {% if page.excerpt %}
-          <span class="subheading">{{ page.excerpt }}</span>
-          {% endif %} {% if page.layout == 'home' %}
-          <div class="further-links">
-            <h4>
-              <a href="/blog" class="further-item">Beiträge ansehen</a>
-              <span class="further-span">oder</span>
-              <a href="/contact" class="further-item">Kontakt aufnehmen</a>
-            </h4>
+      <div class="row">
+        <div class="col-8 mx-auto">
+          <div id="header-content">
+            <div class="page-heading">
+              <span class="name">{{ page.subtitle }}</span>
+              <h1>{{ page.title }}</h1>
+              {% if page.description %}
+              <span class="subheading">{{ page.description }}</span>
+              {% endif %} {% if page.layout == 'home' %}
+              <div class="further-links">
+                <h4>
+                  <a href="/blog" class="further-item">Beiträge ansehen</a>
+                  <span class="further-span">oder</span>
+                  <a href="/contact" class="further-item">Kontakt aufnehmen</a>
+                </h4>
+              </div>
+              {% endif %}
+            </div>
           </div>
-          {% endif %}
         </div>
       </div>
     </div>
