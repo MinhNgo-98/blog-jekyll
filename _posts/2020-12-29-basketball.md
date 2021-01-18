@@ -1,5 +1,7 @@
 ---
+title: "Wie ein Sport in kurzer Zeit global bekannt wurde"
 layout: post
+category: Sport
 background: "/assets/images/posts/basketball.jpg"
 ---
 
