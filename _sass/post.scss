@@ -1,0 +1,64 @@
+.home-post-list {
+  margin-bottom: 50px;
+
+  .home-post-heading {
+    font-size: 50px;
+    font-weight: 700;
+    @media only screen and (min-width: 768px) {
+      font-size: 50px;
+    }
+  }
+}
+
+.post-preview {
+  > a {
+    color: $gray-900;
+    &:focus,
+    &:hover {
+      text-decoration: none;
+      color: $primary;
+    }
+    > .post-title {
+      font-size: 28px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+    > .post-subtitle {
+      font-size: 22px;
+      font-weight: 300;
+      margin: 0.5rem 0 10px;
+    }
+  }
+  .post-meta {
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 1rem;
+    color: $gray-600;
+    display: flex;
+    align-content: center;
+    .profile {
+      width: 40px;
+      height: 40px;
+      margin-right: 5px;
+    }
+    > p {
+      margin: auto 0;
+    }
+    > a {
+      text-decoration: none;
+      color: $gray-900;
+      &:focus,
+      &:hover {
+        text-decoration: underline;
+        color: $primary;
+      }
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    > a {
+      > .post-title {
+        font-size: 32px;
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+---
+title: Blog
+description: "Spannende Beiträge zu Themen, die mich interessieren."
+background: "/assets/images/bg-post.jpg"
+layout: page
+---
+
+<div class="wrapper">
+  <!-- Search Box DOM Elements -->
+  <div class="search">
+    <i class="fa fa-search" aria-hidden="true"></i>
+    <input type="text" id="search-input" placeholder="...">
+    <ul id="results-container"></ul>
+  </div>
+</div>
+
+
+
+
+{% for post in paginator.posts %} {% include post_card.html %} {% endfor %}
+
+<!-- Pager -->
+
+</div>

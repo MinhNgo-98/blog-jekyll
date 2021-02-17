@@ -1,0 +1,42 @@
+---
+title: Kontakt
+description: 'Möchten Sie Kontakt aufnehmen? Füllen Sie das untenstehende Formular aus, um
+mir eine Nachricht zu senden und ich werde melde mich so schnell wie möglich
+bei Ihnen zurück!'
+background: "/assets/images/bg-contact.jpg"
+layout: page
+---
+
+
+<form action="https://formspree.io/f/xqkgodpj" method="POST">
+  <div class="control-group">
+    <div class="form-group floating-label-form-group controls">
+      <label>
+        E-Mail:
+      </label>
+      <input type="text" name="_replyto">
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="form-group floating-label-form-group controls">
+      <label>
+        Betreff:
+      </label>
+      <input name="_subject" value="" />
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="form-group floating-label-form-group controls">
+      <label>
+        Nachricht:
+      </label>
+      <textarea rows="6" name="message"></textarea>
+    </div>
+  </div>
+  <!-- your other form fields go here -->
+  <br />
+  <div id="success"></div>
+  <div class="form-group">
+    <button id="submit-form" type="submit">Absenden</button>
+  </div>
+</form>
