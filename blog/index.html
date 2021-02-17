@@ -5,22 +5,20 @@ background: "/assets/images/bg-post.jpg"
 layout: page
 ---
 
+<div class="wrapper">
+  <!-- Search Box DOM Elements -->
+  <div class="search">
+    <i class="fa fa-search" aria-hidden="true"></i>
+    <input type="text" id="search-input" placeholder="...">
+    <ul id="results-container"></ul>
+  </div>
+</div>
+
+
+
+
 {% for post in paginator.posts %} {% include post_card.html %} {% endfor %}
 
 <!-- Pager -->
 
-<div class="clearfix">
-  {% if paginator.previous_page %}
-  <a
-    class="btn btn-primary float-left"
-    href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"
-    >&larr; Neuere<span class="d-none d-md-inline"> Posts</span></a
-  >
-  {% endif %} {% if paginator.next_page %}
-  <a
-    class="btn btn-primary float-right"
-    href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"
-    >Ältere<span class="d-none d-md-inline"> Posts</span> &rarr;</a
-  >
-  {% endif %}
 </div>

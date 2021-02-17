@@ -22,7 +22,7 @@ title: Minhs Blog
 email: mh98ngo@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Das ist mein Blog.
-baseurl: "blog-jekyll" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 author: Minh Ngo
 profile: /assets/images/profiles/minh.png
@@ -62,3 +62,4 @@ sass:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+searchResultTemplate: '<div><a href="{url}"><h1>{title}</h1></a><span>{date}</span></div>',

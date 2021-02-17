@@ -3,8 +3,57 @@
 @import "masthead.scss";
 @import "post.scss";
 @import "footer.scss";
+@import "search.scss";
 
 .btn-primary {
   background-color: $gray-900 !important;
   border: none !important;
 }
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group{
+  display: flex;
+  align-content: start;
+}
+
+.form-group label{
+  width: 150px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.form-group input{
+  width: 100%;
+}
+
+.form-group textarea{
+  width: 100%;
+}
+
+#submit-form:hover {
+  letter-spacing: 0.8em;
+  background-color: #636669;
+}
+
+#submit-form {
+  color: white;
+}
+
+.form-group button {
+  background-color: #212529;
+  height: 4em;
+  width: 50%;
+  padding: 1.5em auto;
+  margin: 1em auto;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  transition: all 0.2s cubic-bezier(.4,0,.2,1);
+ 
+}
+
