@@ -28,6 +28,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-include-cache
+
 sass:
   style: compressed
 
@@ -68,16 +69,3 @@ webp:
   # Default transforms `image.png` to `image.webp`, while changing to true transforms `image.png` to `image.png.webp`
   append_ext: false
 ############################################################
-pwa:
-  enabled: false # Optional
-  sw_src_filepath: service-worker.js # Optional
-  sw_dest_filename: service-worker.js # Optional
-  dest_js_directory: assets/js # Required
-  precache_recent_posts_num: 5 # Optional
-  precache_glob_directory: / # Optional
-  precache_glob_patterns: # Optional
-    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
-    - index.html
-  precache_glob_ignores: # Optional
-    - sw-register.js
-    - "fonts/**/*"
