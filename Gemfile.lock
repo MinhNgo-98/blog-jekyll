@@ -41,6 +41,7 @@ GEM
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-paginate (1.1.0)
+    jekyll-pwa-plugin (5.1.5)
     jekyll-remote-theme (0.4.2)
       addressable (~> 2.0)
       jekyll (>= 3.5, < 5.0)
@@ -102,6 +103,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-include-cache
   jekyll-paginate (~> 1.1)
+  jekyll-pwa-plugin
   jekyll-remote-theme
   jekyll-seo-tag
   jekyll-sitemap
