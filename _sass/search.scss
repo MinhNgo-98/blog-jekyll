@@ -1,17 +1,18 @@
-#search-input{
-    padding: 0.5rem 1rem;
-    width: 50%;
+#search-input {
+  padding: 0.5rem 0.65rem;
+  width: 100%;
+  margin-bottom: 2rem;
+  letter-spacing: 0.1rem;
 }
 
-#results-container{
-    list-style-type: none!important;
+#results-container {
+  list-style-type: none !important;
 }
 
-#search-link{
-    margin: 0.5rem 0;
+#search-link {
+  margin: 0.5rem 0;
 }
 
-#search-link a{
-    color: black;
-
+#search-link a {
+  color: black;
 }

@@ -8,16 +8,12 @@ layout: page
 <div class="wrapper">
   <!-- Search Box DOM Elements -->
   <div class="search">
-    <i class="fa fa-search" aria-hidden="true"></i>
-    <input type="text" id="search-input" placeholder="...">
+    <input type="text" id="search-input" placeholder="Suche ..."/>
     <ul id="results-container"></ul>
   </div>
 </div>
-
-
-
-
 {% for post in paginator.posts %} {% include post_card.html %} {% endfor %}
+{% include pagination.html %}
 
 <!-- Pager -->
 
