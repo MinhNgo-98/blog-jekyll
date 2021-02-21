@@ -12,15 +12,22 @@ facebook_username: mhno.8
 instagram_username: mh_no.8
 linkedin_username: minhngo-3598
 
+exclude:
+  - .jekyll-cache
+
 # Build settings
 theme: minima
 markdown: kramdown
 paginate: 5
 paginate_path: "/blog/page:num/"
 plugins:
+  - jekyll-archives
+  - jekyll-commonmark
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-remote-theme
+  - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-include-cache
 sass:
   style: compressed
 
@@ -61,3 +68,8 @@ webp:
   # Default transforms `image.png` to `image.webp`, while changing to true transforms `image.png` to `image.png.webp`
   append_ext: false
 ############################################################
+
+markdown: CommonMark
+  commonmark:
+  options: ["SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table"]
